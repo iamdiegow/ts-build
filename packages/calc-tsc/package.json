@@ -1,0 +1,17 @@
+{
+  "name": "calc-tsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+		"@diegow/configs": "*",
+    "@types/node": "^17.0.21",
+    "typescript": "^4.5.5"
+  }
+}
