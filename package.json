@@ -1,9 +1,9 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "@diegow/ts-build",
+	"description": "monorepo with examples of ts builds",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "apps/*",
     "packages/*"
   ],
   "scripts": {
