@@ -1,6 +1,6 @@
 {
   "name": "@diegow/ts-build",
-	"description": "monorepo with examples of ts builds",
+  "description": "monorepo with examples of ts builds",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -13,8 +13,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@types/node": "^17.0.21",
     "prettier": "^2.5.1",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^4.5.5"
   },
   "engines": {
     "npm": ">=7.0.0",
