@@ -1,0 +1,12 @@
+{
+  "name": "@diegow/configs",
+  "version": "1.0.0",
+  "description": "Shared configurations",
+	"private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
