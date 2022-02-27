@@ -5,7 +5,6 @@
 		"skipLibCheck": true,
 		"pretty": true
 	},
-	"exclude": ["node_modules"],
 	"$schema": "https://json.schemastore.org/tsconfig.json",
 	"display": "Typecheck"
 }
