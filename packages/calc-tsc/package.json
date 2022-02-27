@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+	"types": "./dist/types/index.d.ts",
   "scripts": {
 		"clean": "rimraf dist",
     "prebuild": "npm run clean && tsc -p ./tsconfig.typecheck.json",
-    "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.esm.json"
+    "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.esm.json",
+		"postbuild": "tsc -p ./tsconfig.declaration.json"
   },
   "keywords": [],
   "author": "",

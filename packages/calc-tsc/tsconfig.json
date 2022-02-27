@@ -3,7 +3,7 @@
 	"compilerOptions": {
 		"rootDir": "src",
 		"outDir": "dist/commonjs",
-		"declaration": true,
+		"declaration": false,
 		"listEmittedFiles": true
 	}
 }
