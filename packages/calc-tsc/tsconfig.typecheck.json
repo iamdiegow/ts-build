@@ -1,0 +1,6 @@
+{
+	"extends": "@diegow/configs/tsconfig.typecheck.json",
+	"compilerOptions": {
+		"rootDir": "src"
+	}
+}
