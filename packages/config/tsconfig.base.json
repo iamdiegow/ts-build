@@ -4,7 +4,7 @@
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": false
 	},
 	"$schema": "https://json.schemastore.org/tsconfig.json",
 	"display": "Base"
