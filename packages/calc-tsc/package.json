@@ -2,8 +2,11 @@
   "name": "calc-tsc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
 	"types": "./dist/types/index.d.ts",
+	"exports": [
+		"./dist/commonjs/index.js",
+		"./dist/esm/index.js"
+	],
   "scripts": {
 		"clean": "rimraf dist",
     "prebuild": "npm run clean && tsc -p ./tsconfig.typecheck.json",

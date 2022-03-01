@@ -2,14 +2,13 @@
   "name": "calc-webpack",
   "version": "1.0.0",
   "description": "",
-	"types": "./dist/index.d.ts", 
-	"exports": {
-		"import": "./dist/index.js",
-		"require": "./dist/index.js"
-	},
+  "types": "./dist/index.d.ts",
+  "exports": [
+    "./dist/index.js"
+  ],
   "scripts": {
-		"clean": "rimraf dist",
-    "prebuild": "npm run clean && tsc -p ./tsconfig.typecheck.json",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
     "build": "webpack",
     "postbuild": "tsc -p ./tsconfig.declaration.json"
   },
