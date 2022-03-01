@@ -1,0 +1,24 @@
+{
+  "name": "calc-webpack",
+  "version": "1.0.0",
+  "description": "",
+	"types": "./dist/index.d.ts", 
+	"exports": {
+		"import": "./dist/index.js",
+		"require": "./dist/index.js"
+	},
+  "scripts": {
+		"clean": "rimraf dist",
+    "prebuild": "npm run clean && tsc -p ./tsconfig.typecheck.json",
+    "build": "webpack",
+    "postbuild": "tsc -p ./tsconfig.declaration.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

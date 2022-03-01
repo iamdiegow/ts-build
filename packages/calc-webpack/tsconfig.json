@@ -1,0 +1,9 @@
+{
+  "extends": "@diegow/configs/tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist/commonjs",
+    "declaration": false,
+    "listEmittedFiles": true
+  }
+}
